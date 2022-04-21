@@ -1,0 +1,28 @@
+{
+  "name": "money-tree-bot-api",
+  "version": "1.0.0",
+  "description": "The Webhook API for moneytree bot.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sks710931/moneytree-bot-api.git"
+  },
+  "author": "Shivam Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sks710931/moneytree-bot-api/issues"
+  },
+  "homepage": "https://github.com/sks710931/moneytree-bot-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "save": "^2.5.0"
+  }
+}
